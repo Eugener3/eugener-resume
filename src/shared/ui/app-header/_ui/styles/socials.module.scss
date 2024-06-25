@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  font-size: 24px;
+  font-weight: 400;
+  a {
+    border: 2px solid #f0e3ca;
+    border-radius: 50%;
+    transition: 150ms;
+    padding: 10px;
+  }
+  a:hover {
+    border: 2px solid #ff7517;
+    transition: 150ms;
+    svg {
+      path {
+        fill: #ff7517;
+        transition: 150ms;
+      }
+    }
+  }
+}

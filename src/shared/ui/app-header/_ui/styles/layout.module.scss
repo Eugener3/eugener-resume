@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 150px;
+  border-bottom: 1px solid transparent;
+  -moz-border-image: -moz-linear-gradient(
+    90deg,
+    rgba(44, 39, 39, 0),
+    #f06e16,
+    rgba(44, 39, 39, 0)
+  );
+  -webkit-border-image: -webkit-linear-gradient(
+    90deg,
+    rgba(44, 39, 39, 0),
+    #f06e16,
+    rgba(44, 39, 39, 0)
+  );
+  border-image: linear-gradient(
+    90deg,
+    rgba(44, 39, 39, 0),
+    #f06e16,
+    rgba(44, 39, 39, 0)
+  );
+  border-image-slice: 1;
+}

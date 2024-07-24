@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter as FontSans } from 'next/font/google';
+import { Ubuntu as FontSans } from 'next/font/google';
 
 import './globals.css';
 import Providers from '@/src/app/_providers/Providers';
@@ -11,8 +11,9 @@ export const metadata: Metadata = {
 };
 
 const fontSans = FontSans({
-  subsets: ['latin'],
+  subsets: ['latin', 'cyrillic'],
   variable: '--font-sans',
+  weight: ['400', '300', '700', '500'],
 });
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {

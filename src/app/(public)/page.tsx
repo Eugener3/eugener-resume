@@ -1,4 +1,10 @@
+import Main from '@/src/widgets/main/Main';
+
 const Home: React.FC = () => {
-  return <p>page</p>;
+  return (
+    <>
+      <Main />
+    </>
+  );
 };
 export default Home;

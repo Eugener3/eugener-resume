@@ -9,10 +9,12 @@ interface Layout {
 
 const Layout: React.FC<Layout> = ({ logo, nav, socials }) => {
   return (
-    <header className={css.wrapper}>
-      {logo}
-      {nav}
-      {socials}
+    <header className={css.layout}>
+      <div className={css.wrapper}>
+        {logo}
+        {nav}
+        {socials}
+      </div>
     </header>
   );
 };

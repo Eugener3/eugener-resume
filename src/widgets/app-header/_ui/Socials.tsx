@@ -1,8 +1,8 @@
-import React from 'react';
 import Link from 'next/link';
-import TelegramIcon from '../../assets/socials/TelegramIcon';
-import GithubIcon from '../../assets/socials/GithubIcon';
-import VkIcon from '../../assets/socials/VkIcon';
+
+import VkIcon from '@/src/shared/ui/assets/socials/VkIcon';
+import GithubIcon from '@/src/shared/ui/assets/socials/GithubIcon';
+import TelegramIcon from '@/src/shared/ui/assets/socials/TelegramIcon';
 
 import css from './styles/socials.module.scss';
 

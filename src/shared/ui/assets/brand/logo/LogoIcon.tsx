@@ -3,8 +3,8 @@ import React from 'react';
 const LogoIcon: React.FC<React.SVGProps<SVGSVGElement>> = () => {
   return (
     <svg
-      width="90"
-      height="48"
+      width="70"
+      height="38"
       viewBox="0 0 90 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

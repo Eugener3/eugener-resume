@@ -1,6 +1,6 @@
 import type { PropsWithChildren } from 'react';
 
-import AppHeader from '@/src/shared/ui/app-header/AppHeader';
+import AppHeader from '@/src/widgets/app-header/AppHeader';
 
 const Layout: React.FC<PropsWithChildren> = async ({ children }) => {
   return (

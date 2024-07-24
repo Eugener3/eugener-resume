@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import LogoIcon from '../../assets/brand/logo/LogoIcon';
+import LogoIcon from '@/src/shared/ui/assets/brand/logo/LogoIcon';
 
 const Logo: React.FC = () => {
   return (

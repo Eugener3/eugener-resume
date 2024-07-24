@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 1620px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 40px;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    .about {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      max-width: 850px;
+    }
+  }
+}

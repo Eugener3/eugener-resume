@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  p,
+  span {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  span {
+    color: #ff7517;
+  }
+  p:last-child {
+    margin-left: 30px;
+  }
+}

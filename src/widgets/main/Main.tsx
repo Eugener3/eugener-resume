@@ -2,9 +2,7 @@ import Title from '@/src/shared/ui/title/Title';
 import css from './main.module.scss';
 import Link from 'next/link';
 import TelegramIcon from '@/src/shared/ui/assets/socials/TelegramIcon';
-import Image from 'next/image';
-import Dots from '@/src/shared/ui/Dots';
-import Gradient from '@/src/shared/ui/Gradient';
+import Avatar from '@/src/shared/ui/avatar/Avatar';
 
 const Main = (): JSX.Element => {
   return (
@@ -33,16 +31,7 @@ const Main = (): JSX.Element => {
           </div>
         </div>
         <div className={css.side}>
-          <div className={css.avatar}>
-            <Image
-              src={'/assets/main/avatar.png'}
-              width={530}
-              height={510}
-              alt="Avatar"
-            />
-            <Dots className={css.dots} />
-            <Gradient width="530px" height="20px" className={css.gradient} />
-          </div>
+          <Avatar />
         </div>
       </div>
     </div>

@@ -1,0 +1,13 @@
+.avatar {
+  position: relative;
+  .dots {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 10%;
+  }
+  .gradient {
+    position: absolute;
+    bottom: -15%;
+  }
+}

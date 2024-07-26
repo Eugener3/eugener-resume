@@ -2,6 +2,7 @@ import About from '@/src/widgets/about/About';
 import Main from '@/src/widgets/main/Main';
 import Skills from '@/src/widgets/skills/Skills';
 import Qualities from '@/src/widgets/qualities/Qualities';
+import Companions from '@/src/widgets/companions/Companions';
 
 const Home: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Home: React.FC = () => {
       <About />
       <Skills />
       <Qualities />
+      <Companions />
     </>
   );
 };

@@ -7,7 +7,7 @@ interface Layout {
 
 const Layout: React.FC<Layout> = ({ title, content }) => {
   return (
-    <section className={css.layout} id="skills">
+    <section className={css.layout} id="companions">
       <div className={css.wrapper}>
         {title}
         {content}

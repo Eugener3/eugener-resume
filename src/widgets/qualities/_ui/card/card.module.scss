@@ -8,10 +8,10 @@
   border-radius: 12px;
   border: 2px solid #f0e3ca;
   background-color: #3e3939;
+  transition: transform 0.3s ease-in-out;
 
   &:hover {
-    animation: increasing 1.5s ease-in-out;
-    transition: all 1.5s ease-in-out;
+    transform: scale(1.1);
   }
 
   h2,

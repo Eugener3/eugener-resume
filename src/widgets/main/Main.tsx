@@ -5,6 +5,7 @@ import TelegramIcon from '@/src/shared/ui/assets/socials/TelegramIcon';
 import Avatar from '@/src/shared/ui/avatar/Avatar';
 
 const Main = (): JSX.Element => {
+  // {<AnimatedText text="Backend-разработчик" />}
   return (
     <div className={css.layout}>
       <div className={css.wrapper}>

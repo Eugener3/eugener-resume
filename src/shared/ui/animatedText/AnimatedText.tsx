@@ -42,7 +42,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text }) => {
       const interval = setInterval(() => {
         setDisplayedText((prev) => prev + text[currentIndex]);
         setCurrentIndex((prev) => prev + 1);
-      }, 200);
+      }, 130);
       return () => clearInterval(interval);
     } else {
       return undefined;
@@ -52,7 +52,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text }) => {
   return (
     <div ref={ref} className={css.wrapper}>
       <span>{displayedText}</span>
-      <span className={css.caret}>I</span>
+      <span className={css.caret}>|</span>
     </div>
   );
 };

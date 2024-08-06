@@ -67,6 +67,15 @@
             gap: 10px;
             font-size: 24px;
             font-weight: 500;
+            transition: 150ms;
+          }
+          a:hover {
+            border: 1px solid #ff7517;
+            transition: 150ms;
+            path {
+              fill: #ff7517;
+              transition: 150ms;
+            }
           }
         }
       }
